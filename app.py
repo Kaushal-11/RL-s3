@@ -283,7 +283,7 @@ def run_full_cycle():
 
 # Background thread for the RL API service
 def start_rl_api():
-    app.run(debug=True, port=5001)
+    app.run(debug=False, port=5001)
 
 if __name__ == "__main__":
     # Start the background thread for the full cycle
