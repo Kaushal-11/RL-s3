@@ -1,0 +1,498 @@
+[
+  {
+    "timestamp": 1732626541050,
+    "data": {
+      "elements": [
+        {
+          "type": "text",
+          "id": 298,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 299,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 302,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 303,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 304,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "navbar",
+          "id": 305,
+          "attributes": {
+            "style": {
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 306,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 310,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 311,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 328,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 334,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 337,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 338,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 339,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 340,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 341,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 349,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 352,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 355,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 364,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdHeader",
+          "id": 365,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(100, 100, 100)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 370,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 373,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 374,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 378,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 382,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 384,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdHeader",
+          "id": 385,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(100, 100, 100)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 390,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 393,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 394,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 398,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 400,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 404,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 406,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdHeader",
+          "id": 407,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(100, 100, 100)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 412,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 415,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 416,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 420,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 422,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 426,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 428,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdHeader",
+          "id": 429,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(100, 100, 100)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 434,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 437,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 438,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 442,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 444,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "background",
+          "id": 301,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 255, 255)"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "timestamp": 1732426579378,
+    "data": {
+      "elements": [
+        {
+          "type": "text",
+          "id": 350,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 351,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 354,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 355,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 356,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "navbar",
+          "id": 357,
+          "attributes": {
+            "style": {
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 358,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 362,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 363,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 380,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 386,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 389,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 390,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 391,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 392,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 393,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 401,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 404,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 407,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 416,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdHeader",
+          "id": 417,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(100, 100, 100)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 422,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 425,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 426,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 430,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 434,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 436,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdHeader",
+          "id": 437,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(100, 100, 100)"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 442,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 445,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 446,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 450,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "shepherdButtons",
+          "id": 452,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 128, 0)"
+            }
+          }
+        },
+        {
+          "type": "background",
+          "id": 301,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 255, 255)"
+            }
+          }
+        }
+      ]
+    }
+  }
+]
