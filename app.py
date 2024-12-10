@@ -291,4 +291,4 @@ if __name__ == "__main__":
     
     # Run the Flask app in the main thread
     ssl_context = ('./ssl/cert.pem', './ssl/key.pem')
-    app.run(debug=True, port=5001, ssl_context=ssl_context)
+    app.run(host="0.0.0.0", port=5001, debug=False,ssl_context=ssl_context) 
