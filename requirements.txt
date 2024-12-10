@@ -1,0 +1,12 @@
+Flask
+Flask-Cors
+boto3
+stable-baselines3
+gymnasium
+numpy
+pandas
+torch
+protobuf
+matplotlib
+kiwisolver
+dotenv

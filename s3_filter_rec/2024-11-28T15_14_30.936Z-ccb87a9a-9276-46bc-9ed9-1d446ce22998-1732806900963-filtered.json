@@ -1,0 +1,209 @@
+[
+  {
+    "timestamp": 1732806870959,
+    "data": {
+      "elements": [
+        {
+          "type": "text",
+          "id": 31,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 32,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 37,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 38,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 39,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "navbar",
+          "id": 40,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(0, 0, 255)",
+              "color": "rgb(255, 255, 255)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 41,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 45,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 46,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 63,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 64,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 67,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 68,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 71,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 72,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 74,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 75,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 76,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "id": 79,
+          "attributes": {
+            "style": {
+              "color": "rgb(0, 0, 0)",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        },
+        {
+          "type": "background",
+          "id": 301,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(245, 245, 245)"
+            }
+          }
+        }
+      ]
+    }
+  }
+]
