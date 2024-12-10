@@ -283,7 +283,7 @@ def run_full_cycle():
 
 # Background thread for the RL API service
 def start_rl_api():
-    app.run(debug=False, port=5001)
+    app.run(debug=False, port=5000)
 
 if __name__ == "__main__":
     # Start the background thread for the full cycle
@@ -291,4 +291,4 @@ if __name__ == "__main__":
     
     # Run the Flask app in the main thread
     ssl_context = ('./ssl/cert.pem', './ssl/key.pem')
-    app.run(host="0.0.0.0", port=5001, debug=False,ssl_context=ssl_context) 
+    app.run(host="0.0.0.0", port=5000, debug=False,ssl_context=ssl_context) 

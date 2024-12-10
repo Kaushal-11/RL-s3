@@ -167,4 +167,4 @@ if __name__ == '__main__':
     
     # Add the ssl_context parameter for HTTPS
     ssl_context = ('./ssl/cert.pem', './ssl/key.pem')
-    app.run(debug=False, port=5001, ssl_context=ssl_context)
+    app.run(host="0.0.0.0",debug=False, port=5000, ssl_context=ssl_context)
