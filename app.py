@@ -372,7 +372,7 @@ if __name__ == "__main__":
     ssl_context = get_ssl_context()
     
     # Start background threads
-    threading.Thread(target=background_retrain_model, daemon=True).start()
+    threading.Thread(target=run_full_cycle, daemon=True).start()
     
     # Run the Flask app with the SSL context
     app.run(
