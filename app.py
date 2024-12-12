@@ -290,5 +290,5 @@ if __name__ == "__main__":
     threading.Thread(target=run_full_cycle, daemon=True).start()
     
     # Run the Flask app in the main thread
-    ssl_context = ('./ssl/cert.pem', './ssl/key.pem')
+    ssl_context = ('./ssl/cloudexpresssolutions_com.key', './ssl/cloudexpresssolutions_com.crt')
     app.run(host="0.0.0.0", port=5000, debug=False,ssl_context=ssl_context) 

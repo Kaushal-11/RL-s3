@@ -166,5 +166,5 @@ if __name__ == '__main__':
     threading.Thread(target=background_retrain_model, daemon=True).start()
     
     # Add the ssl_context parameter for HTTPS
-    ssl_context = ('./ssl/cert.pem', './ssl/key.pem')
+    ssl_context = ('./ssl/cloudexpresssolutions_com.key', './ssl/cloudexpresssolutions_com.crt')
     app.run(host="0.0.0.0",debug=False, port=5000, ssl_context=ssl_context)
