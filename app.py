@@ -366,8 +366,8 @@ def start_rl_api():
     app.run(debug=False, port=5000)
 
 if __name__ == "__main__":
-   logging.basicConfig(level=logging.INFO)
-    
+    logging.basicConfig(level=logging.INFO)
+
     # Get SSL context with robust error handling
     ssl_context = get_ssl_context()
     
