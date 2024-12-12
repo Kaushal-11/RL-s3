@@ -7,6 +7,8 @@ import json
 import os
 import time
 import threading
+import ssl
+import logging
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -23,6 +25,87 @@ if not os.path.exists(new_json_folder):
 rrweb_data_folder = os.path.abspath('./filtered_recordings')
 print("Absolute path to filtered_recordings:", rrweb_data_folder)
 
+
+
+def validate_ssl_context(cert_path, key_path):
+    try:
+        # Check if certificate files exist
+        if not os.path.exists(cert_path):
+            raise FileNotFoundError(f"Certificate file not found: {cert_path}")
+        
+        if not os.path.exists(key_path):
+            raise FileNotFoundError(f"Key file not found: {key_path}")
+        
+        # Validate certificate file contents
+        with open(cert_path, 'r') as cert_file:
+            cert_content = cert_file.read()
+            if not cert_content.startswith('-----BEGIN CERTIFICATE-----'):
+                raise ValueError("Invalid certificate format")
+        
+        with open(key_path, 'r') as key_file:
+            key_content = key_file.read()
+            if not key_content.startswith('-----BEGIN PRIVATE KEY-----'):
+                raise ValueError("Invalid key format")
+        
+        # Create SSL context
+        ssl_context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
+        ssl_context.load_cert_chain(cert_path, key_path)
+        return ssl_context
+    
+    except Exception as e:
+        logging.error(f"SSL Context Validation Error: {e}")
+        return None
+
+def get_ssl_context():
+    # Potential SSL certificate paths
+    cert_paths = [
+        './ssl/cloudexpresssolutions_com.crt',
+        './ssl/cert.pem',
+        '/etc/letsencrypt/live/cloudexpresssolutions.com/fullchain.pem'
+    ]
+    
+    key_paths = [
+        './ssl/cloudexpresssolutions_com.key',
+        './ssl/key.pem',
+        '/etc/letsencrypt/live/cloudexpresssolutions.com/privkey.pem'
+    ]
+    
+    # Try multiple potential paths
+    for cert_path in cert_paths:
+        for key_path in key_paths:
+            if os.path.exists(cert_path) and os.path.exists(key_path):
+                ssl_context = validate_ssl_context(cert_path, key_path)
+                if ssl_context:
+                    print(f"SSL Context successfully created using {cert_path} and {key_path}")
+                    return (cert_path, key_path)
+    
+    # Fallback: Generate self-signed certificate if no valid certificate found
+    print("No valid SSL certificates found. Generating self-signed certificate...")
+    generate_self_signed_cert()
+    return ('./ssl/self_signed.crt', './ssl/self_signed.key')
+
+def generate_self_signed_cert():
+    try:
+        import subprocess
+        
+        # Ensure SSL directory exists
+        os.makedirs('./ssl', exist_ok=True)
+        
+        # Generate self-signed certificate
+        subprocess.run([
+            'openssl', 'req', '-x509', '-newkey', 'rsa:4096', 
+            '-keyout', './ssl/self_signed.key', 
+            '-out', './ssl/self_signed.crt', 
+            '-days', '365', 
+            '-nodes', 
+            '-subj', '/CN=cloudexpresssolutions.com'
+        ], check=True)
+        
+        print("Self-signed certificate generated successfully.")
+    except Exception as e:
+        logging.error(f"Certificate generation error: {e}")
+
+# Modify
 # Function to run model training
 def train_model():
     try:
@@ -163,8 +246,18 @@ def extract_rgb(color_str):
     return [int(x.strip()) for x in rgb_values]
 
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    
+    # Get SSL context with robust error handling
+    ssl_context = get_ssl_context()
+    
+    # Start background threads
     threading.Thread(target=background_retrain_model, daemon=True).start()
     
-    # Add the ssl_context parameter for HTTPS
-    ssl_context = ('./ssl/cloudexpresssolutions_com.key', './ssl/cloudexpresssolutions_com.crt')
-    app.run(host="0.0.0.0",debug=False, port=5000, ssl_context=ssl_context)
+    # Run the Flask app with the SSL context
+    app.run(
+        host="0.0.0.0", 
+        debug=False, 
+        port=5000, 
+        ssl_context=ssl_context
+    )
